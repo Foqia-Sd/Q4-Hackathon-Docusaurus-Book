@@ -1,6 +1,14 @@
-# Website
+# Humanoid Robotics Documentation
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+
+## Chatbot Integration
+
+The documentation includes an AI chatbot widget that provides assistance to users. The chatbot is integrated using:
+
+- **Frontend**: Located in `src/components/ChatWidget.jsx`
+- **Theme Override**: Located in `src/theme/Layout/index.jsx`
+- **Backend Connection**: Connects to `http://localhost:8000/chat` by default
 
 ## Installation
 
